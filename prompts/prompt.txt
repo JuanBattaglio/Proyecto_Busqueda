@@ -1,0 +1,33 @@
+# ---------- Prompt 1: BASE ----------
+PROMPT_BASE = f'''Clasifica la siguiente reseña como positiva, negativa o neutra:
+"{RESENA}"'''
+
+# ---------- Prompt 2: PLANTILLA CLARA ----------
+PROMPT_PLANTILLA = f'''Tarea: Clasifica la reseña de un producto como positiva, negativa o neutra.
+Contexto: Eres un sistema de análisis de opiniones para una tienda online.
+La clasificación se usará para mejorar el servicio al cliente.
+Restricciones:
+- Responde únicamente con una de estas etiquetas: positiva, negativa, neutra.
+- Añade una justificación de máximo 2 frases.
+- No uses información externa a la reseña.
+Formato de salida:
+Clasificación: [etiqueta]
+Justificación: [máximo 2 frases]
+Criterio de calidad: La clasificación debe reflejar el sentimiento predominante
+del texto, no solo aspectos aislados.
+Reseña: "{RESENA}"'''
+
+# ---------- Prompt 3: RAZONAMIENTO Y CONTRASTE ----------
+PROMPT_RAZONAMIENTO = f'''Analiza la siguiente reseña de producto paso a paso y determina su clasificación.
+Reseña: "{RESENA}"
+Sigue estos pasos:
+1. Identifica los aspectos positivos mencionados en la reseña.
+2. Identifica los aspectos negativos mencionados en la reseña.
+3. Considera las tres posibles clasificaciones: positiva, negativa y neutra.
+4. Compara el peso de los argumentos a favor de cada una.
+5. Escribe una conclusión final justificada con la clasificación elegida.
+Formato de respuesta:
+Aspectos positivos: ...
+Aspectos negativos: ...
+Análisis de alternativas: ...
+Conclusión y clasificación final: ...'''
