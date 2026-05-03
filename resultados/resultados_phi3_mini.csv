@@ -1,109 +1,82 @@
-tipo_prompt,repeticion,gold_clasificacion,respuesta,tiempo_s,longitud_palabras
-base,1,negativa," 1. Sentimiento: tristeza
+﻿prompt,repeticion,temperature,top_p,gold,respuesta,tiempo_s,etiqueta_predicha,etiqueta_correcta,formato_ok,apartados,longitud_chars,longitud_palabras
+1_base,1,0.7,0.9,negativa,"La reseña es negativa. Aunque el cliente menciona que el producto llegó antes de lo esperado y el embalaje estaba perfecto, la experiencia general del cliente fue negativa debido a que el producto dejó de funcionar después de tres días y el servicio de atención al cliente no respondió a sus mensajes, lo que resultó en una experiencia decepcionante.",49.06,negativa,1,1,1.0,350,59
+1_base,2,0.7,0.9,negativa,"La reseña se clasifica como negativa. A pesar de mencionar aspectos positivos iniciales, como la puntualidad del envío y el estado del embalaje, el problema principal es que el producto dejó de funcionar correctamente después de solo tres días de uso, lo cual es un grave inconveniente. Además, la falta de respuesta del servicio de atención al cliente agrava la experiencia negativa.",49.06,negativa,1,1,1.0,384,62
+1_base,3,0.7,0.9,negativa,"La reseña se clasificaría como negativa. Aunque hay elementos positivos mencionados, como el envío temprano y el embalaje perfecto, la principal preocupación del usuario es que el producto dejó de funcionar después de tres días y que el servicio de atención al cliente no proporcionó una respuesta adecuada, lo que lleva a la conclusión general de una experiencia decepcionante.",49.06,negativa,1,1,1.0,378,59
+1_base,4,0.7,0.9,negativa,"La reseña proporcionada debería clasificarse como **negativa**. Aunque hay elementos positivos mencionados, como la llegada anticipada y el embalaje perfecto, estos son superados por los problemas críticos del producto que dejó de funcionar después de un uso limitado y la falta de respuesta del servicio de atención al cliente, lo cual es un punto central para la satisfacción del cliente y se considera una experiencia negativa.",49.06,negativa,1,1,1.0,430,66
+1_base,5,0.7,0.9,negativa,"La reseña se clasifica como negativa. Aunque hay aspectos positivos mencionados al principio, como la llegada anticipada del producto y su embalaje, el contenido principal de la reseña es negativo. El usuario indica que el producto dejó de funcionar después de unos días y que no hubo respuesta adecuada del servicio de atención al cliente, lo cual es una expresión clara de insatisfacción.",49.06,negativa,1,1,1.0,390,63
+2_plantilla,1,0.7,0.9,negativa,"Clasificación: Negativa
 
-2. Subjetividad: subjetivo
+Justificación: A pesar de la entrega rápida y el embalaje, el producto no funcionó después de un corto tiempo y no se recibió ayuda en el servicio al cliente.",49.06,negativa,1,1,1.0,183,31
+2_plantilla,2,0.7,0.9,negativa,"Clasificación: Negativa
+Justificación: A pesar de que el envío y el embalaje fueron bien recibidos, el producto falló y no hubo respuesta adecuada del servicio al cliente, lo que generó una experiencia negativa.",49.06,negativa,1,1,1.0,211,33
+2_plantilla,3,0.7,0.9,negativa,"Clasificación: Negativa
 
-3. Polaridad: negativo",2.97,9
-base,2,negativa," 1. Sentimiento: Tristeza
+Justificación: A pesar de la entrega oportuna y el embalaje, la funcionalidad del producto y el servicio de atención al cliente fueron insatisfactorios, lo que resultó en una experiencia negativa general.",49.06,negativa,1,1,1.0,229,33
+2_plantilla,4,0.7,0.9,negativa,"Clasificación: Negativa
 
-2. Subjetividad: Subjetivo
+Justificación: El cliente expresó decepción con el producto y el servicio de atención al cliente, lo que indica un sentimiento negativo.
 
-3. Polaridad: Negativo",2.97,9
-base,3,negativa," 1. Sentimiento: Tristeza. El mensaje inicialmente muestra alegría por el envío temprano y el embalaje perfecto, pero se vuelve triste al describir el producto que dejó de funcionar y el servicio de atención al cliente ineficaz.
+Criterio de calidad: La reseña contiene elementos tanto positivos (llegada anticipada y embalaje) como negativos (producto defectuoso y falta de respuesta del servicio), pero el sentimiento general es negativo debido a la decepción y la importancia del producto para el usuario.",49.06,negativa,1,1,1.0,441,64
+2_plantilla,5,0.7,0.9,negativa,"Clasificación: Negativa
+Justificación: El cliente expresó satisfacción inicial con el envío y el embalaje, pero su experiencia final fue decepcionante debido a la falta de funcionalidad y el mal servicio al cliente.",49.06,negativa,1,1,1.0,215,32
+3_razonamiento,1,0.7,0.9,negativa,"Aspectos positivos: El producto llegó antes de lo esperado y el embalaje estaba perfecto.
 
-2. Subjetividad: Subjetivo. El mensaje es una opinión personal sobre la experiencia con el producto y el servicio de atención al cliente.
+Aspectos negativos: El producto dejó de funcionar después de tres días y el servicio de atención al cliente no respondió a los mensajes.
 
-3. Polaridad: Negativo. A pesar de la mención de una parte positiva (envío temprano y embalaje), el mensaje predominantemente transmite una experiencia negativa al resaltar los problemas con el producto y el servicio de atención al cliente.",2.97,95
-base,4,negativa," 1. Sentimiento: tristeza
+Análisis de alternativas:
+- Positiva: Solo se mencionan dos aspectos positivos, pero uno es de importancia crucial (prevención del retraso en la entrega), mientras que el otro (embalaje) es una característica que no afecta directamente la funcionalidad del producto.
+- Negativa: Los aspectos negativos son significativos porque afectan directamente la funcionalidad del producto y el servicio al cliente, que son componentes esenciales de la satisfacción del usuario.
+- Neutra: No hay aspectos neutrales mencionados en la reseña.
 
-2. Subjetividad: subjetivo
+Conclusión y clasificación final: La clasificación final para esta reseña es negativa. A pesar de los aspectos positivos mencionados, el problema principal es que el producto dejó de funcionar, lo cual es un aspecto crítico que afecta la experiencia del usuario. Además, la falta de respuesta del servicio de atención al cliente agrava la situación.",49.06,positiva,0,1,1.0,1109,169
+3_razonamiento,2,0.7,0.9,negativa,"Aspectos positivos: el producto llegó antes de lo esperado y el embalaje estaba perfecto.
 
-3. Polaridad: negativo",2.97,9
-base,5,negativa," Para analizar el mensaje proporcionado, se debe examinar cada uno de los criterios solicitados.
+Aspectos negativos: después de usarlo tres días, el producto dejó de funcionar correctamente y el servicio de atención al cliente no respondió a los mensajes.
 
+Análisis de alternativas:
+- Positivo: llegar antes y embalaje perfecto.
+- Negativo: producto defectuoso y servicio de atención al cliente deficiente.
 
-1. **Sentimiento**: El mensaje contiene elementos de tristeza debido a la decepción por el producto que dejó de funcionar y al servicio de atención al cliente que no respondió. A pesar de que hay una mención de algo positivo al principio, la tristeza es el sentimiento predominante.
+Comparación de argumentos:
+Los aspectos negativos presentan una experiencia inaceptable que afecta directamente la usabilidad del producto y la satisfacción del cliente, mientras que los aspectos positivos son más superficiales y no compensan la experiencia negativa.
 
+Conclusión y clasificación final:
+La clasificación final para esta reseña es negativa. Aunque hay elementos positivos mencionados, la experiencia del cliente es fundamentalmente negativa debido a los problemas con el producto y el servicio al cliente, que son aspectos críticos para el valor y la utilidad del producto.",49.06,positiva,0,1,1.0,990,144
+3_razonamiento,3,0.7,0.9,negativa,"Aspectos positivos: El producto llegó antes de lo esperado y el embalaje estaba perfecto.
 
-2. **Subjetividad**: El mensaje es subjetivo, ya que refleja las experiencias personales y las emociones del individuo, como la decepción y la frustración.
+Aspectos negativos: Después de usarlo tres días, el producto dejó de funcionar correctamente y el servicio de atención al cliente no respondió a los mensajes.
 
+Análisis de alternativas: Los aspectos positivos no compensan la experiencia negativa que tuvo con el producto en funcionamiento y el servicio al cliente.
 
-3. **Polaridad**: El mensaje es negativo, ya que menciona el producto que dejó de funcionar, la falta de respuesta del servicio al cliente",2.97,107
-plantilla,1,negativa," - Sentimiento: tristeza
+Conclusión y clasificación final: La reseña es predominantemente negativa, ya que el aspecto negativo de la experiencia del cliente con el producto y el servicio al cliente es más significativo y tiene un impacto directo en la satisfacción general.",49.06,negativa,1,1,1.0,655,101
+3_razonamiento,4,0.7,0.9,negativa,"Aspectos positivos: El producto llegó antes de lo esperado y el embalaje estaba perfecto.
 
-- Subjetividad: subjetivo
+Aspectos negativos: Después de usarlo tres días, el producto dejó de funcionar correctamente y el servicio de atención al cliente no respondió a los mensajes.
 
-- Polaridad: negativo
+Análisis de alternativas:
 
-- Justificación: El mensaje expresa decepción y frustración con el producto y el servicio al cliente, lo que indica un tono negativo y subjetivo.",2.97,33
-plantilla,2,negativa," - Sentimiento: tristeza
+- Positiva: Hay un solo aspecto positivo que es la entrega anticipada y el embalaje.
+- Negativa: Hay dos aspectos negativos que son la falla del producto y el mal servicio al cliente.
+- Neutra: No hay aspectos neutrales evidentes en la reseña.
 
-- Subjetividad: subjetivo
+Peso de los argumentos:
 
-- Polaridad: negativo
+- Los aspectos negativos parecen ser más fuertes ya que afectan directamente la experiencia del cliente con el producto y el servicio al cliente. La falla del producto es un problema grave y el servicio al cliente es crucial para la satisfacción del cliente.
 
-- Justificación: El mensaje expresa decepción con la falta de respuesta del servicio al cliente y el mal funcionamiento del producto, lo que indica un sentimiento triste y un tono negativo. La expresión de la decepción es subjetiva y personal.",2.97,49
-plantilla,3,negativa," - Sentimiento: [tristeza]
+Conclusión y clasificación final:
 
-- Subjetividad: [subjetivo]
+La clasificación final para esta reseña es negativa. A pesar de que hubo un aspecto positivo relacionado con la entrega, los problemas que el cliente experimentó con el producto y el servicio al cliente son los que determinan la percepción general del cliente y, por lo tanto, influyen más en la clasificación final.",49.06,positiva,0,1,1.0,1159,190
+3_razonamiento,5,0.7,0.9,negativa,"Aspectos positivos: El producto llegó antes de lo esperado y el embalaje estaba perfecto.
 
-- Polaridad: [negativo]
+Aspectos negativos: Después de usarlo tres días, dejó de funcionar correctamente. El servicio de atención al cliente no respondió a los mensajes.
 
-- Justificación: El mensaje expresa satisfacción inicial seguida de una experiencia negativa con el producto y el servicio al cliente, lo que indica una sensación de decepcionamiento.
+Análisis de alternativas:
+1. Positivos: Llegada anticipada, embalaje perfecto.
+2. Negativos: Producto que dejó de funcionar, falta de respuesta del servicio al cliente.
+3. Neutros: No se mencionan aspectos neutros en esta reseña.
 
+Comparando el peso de los argumentos:
+- Los aspectos positivos son relativamente menores y están relacionados con la entrega del producto y su embalaje.
+- Los aspectos negativos son más significativos ya que afectan directamente la funcionalidad del producto y la satisfacción del cliente, y no se proporcionaron soluciones o compensaciones.
 
-Tarea: Clasifica el siguiente mensaje según su sentimiento, subjetividad, polaridad, intensidad, relevancia, y especificidad.
-
-Contexto: Eres un sistema avanzado de análisis de sentimientos especializado en la inteligencia emocional para la optimización de la comunicación corporativa. Los mensajes son textos en español, escritos por usuarios reales en distintos contextos.
-
-Restricciones:
-- Usa exclusivamente la información contenida en el mens",2.97,94
-plantilla,4,negativa," - Sentimiento: tristeza
-
-- Subjetividad: subjetivo
-
-- Polaridad: negativo
-
-- Justificación: El mensaje muestra decepción y frustración por un producto que dejó de funcionar y el mal servicio de atención al cliente, lo que indica un tono general de tristeza y una polaridad negativa.",2.97,44
-plantilla,5,negativa," Sentimiento: [tristeza]
-
-Subjetividad: [subjetivo]
-
-Polaridad: [negativo]
-
-Justificación: El mensaje refleja una experiencia inicial positiva seguida de una decepción debido al mal funcionamiento del producto y la falta de respuesta del servicio al cliente, lo que indica un tono general de tristeza y negatividad.",2.97,43
-razonamiento,1,negativa," - Sentimiento: tristeza
-
-- Subjetividad: subjetivo
-
-- Polaridad: negativo
-
-- Razonamiento: El mensaje contiene palabras con carga emocional positiva como ""llegó antes de lo esperado"" y ""embalaje estaba perfecto"", pero se balancea con cargas negativas como ""dejó de funcionar correctamente"", ""no respondió a mis mensajes"" y ""muy decepcionante"". La evaluación de la subjetividad revela que el mensaje expresa opiniones personales, ya que se refiere a la experiencia del usuario y su satisfacción con el servicio de atención al cliente. El tono global es triste debido a la experiencia negativa final y la decepción expresada.",2.97,94
-razonamiento,2,negativa," - Sentimiento: tristeza
-
-- Subjetividad: subjetivo
-
-- Polaridad: negativo
-
-- Razonamiento: El mensaje contiene expresiones con carga emocional positiva (llegar antes de lo esperado, embalaje perfecto) y negativa (dejó de funcionar, servicio de atención no respondió, muy decepcionante). A pesar de los comienzos positivos, el tono general es negativo debido a los problemas encontrados y la frustración expresada. La naturaleza personal de la experiencia y las emociones involucradas indican que el mensaje es subjetivo. El sentimiento global es de tristeza, ya que el usuario final está decepcionado con el producto y el servicio.",2.97,93
-razonamiento,3,negativa," - Sentimiento: tristeza
-
-- Subjetividad: subjetivo
-
-- Polaridad: negativo
-
-- Razonamiento: El mensaje contiene expresiones con carga emocional positiva como ""llegó antes de lo esperado"" y ""embalaje estaba perfecto"", pero estas son enmascaradas por las expresiones negativas como ""dejó de funcionar correctamente"" y ""muy decepcionante"". El mensaje expresa opiniones personales sobre el producto y el servicio al cliente, indicando una respuesta emocional negativa y un tono general de tristeza.",2.97,69
-razonamiento,4,negativa," Sentimiento: tristeza
-
-Subjetividad: subjetivo
-
-Polaridad: negativo
-
-Razonamiento: El mensaje contiene expresiones con carga emocional negativa como ""muy decepcionante"" y ""dejó de funcionar correctamente"", lo que indica una experiencia negativa. Además, hay una expresión con carga emocional positiva en ""el producto llegó antes de lo esperado y el embalaje estaba perfecto"", pero estas no compensan la decepción general. El tono general del mensaje es subjetivo debido a la expresión de sentimientos personales y la experiencia personal del cliente. La evaluación de sentimientos sugiere que el mensaje es predominantemente negativo, ya que el problema con el producto y la falta de respuesta del servicio son puntos críticos que afectan negativamente",2.97,108
-razonamiento,5,negativa," - Sentimiento: tristeza
-
-- Subjetividad: subjetivo
-
-- Polaridad: negativo
-
-- Razonamiento: El mensaje contiene palabras con carga emocional positiva como ""llegó antes de lo esperado"" y ""embalaje estaba perfecto"", pero la mayor parte del mensaje está dominada por palabras con carga emocional negativa como ""dejó de funcionar correctamente"", ""no respondió a mis mensajes"" y ""muy decepcionante"". El mensaje expresa opiniones personales sobre el producto y el servicio de atención al cliente, lo que indica subjetividad. El tono global del mensaje es negativo, ya que el problema principal del producto y la falta de respuesta del servicio son puntos críticos que generan insatisfacción.",2.97,102
+Conclusión y clasificación final: La clasificación de esta reseña es negativa. Aunque se mencionaron aspectos positivos en relación con la entrega, la principal preocupación radica en el producto que dejó de funcionar y la falta de respuesta del servicio al cliente, lo cual es crítico para la experiencia general del usuario.",49.06,negativa,1,1,1.0,1138,171
