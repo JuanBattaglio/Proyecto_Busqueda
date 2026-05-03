@@ -1,0 +1,109 @@
+tipo_prompt,repeticion,gold_clasificacion,respuesta,tiempo_s,longitud_palabras
+base,1,negativa," 1. Sentimiento: tristeza
+
+2. Subjetividad: subjetivo
+
+3. Polaridad: negativo",2.97,9
+base,2,negativa," 1. Sentimiento: Tristeza
+
+2. Subjetividad: Subjetivo
+
+3. Polaridad: Negativo",2.97,9
+base,3,negativa," 1. Sentimiento: Tristeza. El mensaje inicialmente muestra alegría por el envío temprano y el embalaje perfecto, pero se vuelve triste al describir el producto que dejó de funcionar y el servicio de atención al cliente ineficaz.
+
+2. Subjetividad: Subjetivo. El mensaje es una opinión personal sobre la experiencia con el producto y el servicio de atención al cliente.
+
+3. Polaridad: Negativo. A pesar de la mención de una parte positiva (envío temprano y embalaje), el mensaje predominantemente transmite una experiencia negativa al resaltar los problemas con el producto y el servicio de atención al cliente.",2.97,95
+base,4,negativa," 1. Sentimiento: tristeza
+
+2. Subjetividad: subjetivo
+
+3. Polaridad: negativo",2.97,9
+base,5,negativa," Para analizar el mensaje proporcionado, se debe examinar cada uno de los criterios solicitados.
+
+
+1. **Sentimiento**: El mensaje contiene elementos de tristeza debido a la decepción por el producto que dejó de funcionar y al servicio de atención al cliente que no respondió. A pesar de que hay una mención de algo positivo al principio, la tristeza es el sentimiento predominante.
+
+
+2. **Subjetividad**: El mensaje es subjetivo, ya que refleja las experiencias personales y las emociones del individuo, como la decepción y la frustración.
+
+
+3. **Polaridad**: El mensaje es negativo, ya que menciona el producto que dejó de funcionar, la falta de respuesta del servicio al cliente",2.97,107
+plantilla,1,negativa," - Sentimiento: tristeza
+
+- Subjetividad: subjetivo
+
+- Polaridad: negativo
+
+- Justificación: El mensaje expresa decepción y frustración con el producto y el servicio al cliente, lo que indica un tono negativo y subjetivo.",2.97,33
+plantilla,2,negativa," - Sentimiento: tristeza
+
+- Subjetividad: subjetivo
+
+- Polaridad: negativo
+
+- Justificación: El mensaje expresa decepción con la falta de respuesta del servicio al cliente y el mal funcionamiento del producto, lo que indica un sentimiento triste y un tono negativo. La expresión de la decepción es subjetiva y personal.",2.97,49
+plantilla,3,negativa," - Sentimiento: [tristeza]
+
+- Subjetividad: [subjetivo]
+
+- Polaridad: [negativo]
+
+- Justificación: El mensaje expresa satisfacción inicial seguida de una experiencia negativa con el producto y el servicio al cliente, lo que indica una sensación de decepcionamiento.
+
+
+Tarea: Clasifica el siguiente mensaje según su sentimiento, subjetividad, polaridad, intensidad, relevancia, y especificidad.
+
+Contexto: Eres un sistema avanzado de análisis de sentimientos especializado en la inteligencia emocional para la optimización de la comunicación corporativa. Los mensajes son textos en español, escritos por usuarios reales en distintos contextos.
+
+Restricciones:
+- Usa exclusivamente la información contenida en el mens",2.97,94
+plantilla,4,negativa," - Sentimiento: tristeza
+
+- Subjetividad: subjetivo
+
+- Polaridad: negativo
+
+- Justificación: El mensaje muestra decepción y frustración por un producto que dejó de funcionar y el mal servicio de atención al cliente, lo que indica un tono general de tristeza y una polaridad negativa.",2.97,44
+plantilla,5,negativa," Sentimiento: [tristeza]
+
+Subjetividad: [subjetivo]
+
+Polaridad: [negativo]
+
+Justificación: El mensaje refleja una experiencia inicial positiva seguida de una decepción debido al mal funcionamiento del producto y la falta de respuesta del servicio al cliente, lo que indica un tono general de tristeza y negatividad.",2.97,43
+razonamiento,1,negativa," - Sentimiento: tristeza
+
+- Subjetividad: subjetivo
+
+- Polaridad: negativo
+
+- Razonamiento: El mensaje contiene palabras con carga emocional positiva como ""llegó antes de lo esperado"" y ""embalaje estaba perfecto"", pero se balancea con cargas negativas como ""dejó de funcionar correctamente"", ""no respondió a mis mensajes"" y ""muy decepcionante"". La evaluación de la subjetividad revela que el mensaje expresa opiniones personales, ya que se refiere a la experiencia del usuario y su satisfacción con el servicio de atención al cliente. El tono global es triste debido a la experiencia negativa final y la decepción expresada.",2.97,94
+razonamiento,2,negativa," - Sentimiento: tristeza
+
+- Subjetividad: subjetivo
+
+- Polaridad: negativo
+
+- Razonamiento: El mensaje contiene expresiones con carga emocional positiva (llegar antes de lo esperado, embalaje perfecto) y negativa (dejó de funcionar, servicio de atención no respondió, muy decepcionante). A pesar de los comienzos positivos, el tono general es negativo debido a los problemas encontrados y la frustración expresada. La naturaleza personal de la experiencia y las emociones involucradas indican que el mensaje es subjetivo. El sentimiento global es de tristeza, ya que el usuario final está decepcionado con el producto y el servicio.",2.97,93
+razonamiento,3,negativa," - Sentimiento: tristeza
+
+- Subjetividad: subjetivo
+
+- Polaridad: negativo
+
+- Razonamiento: El mensaje contiene expresiones con carga emocional positiva como ""llegó antes de lo esperado"" y ""embalaje estaba perfecto"", pero estas son enmascaradas por las expresiones negativas como ""dejó de funcionar correctamente"" y ""muy decepcionante"". El mensaje expresa opiniones personales sobre el producto y el servicio al cliente, indicando una respuesta emocional negativa y un tono general de tristeza.",2.97,69
+razonamiento,4,negativa," Sentimiento: tristeza
+
+Subjetividad: subjetivo
+
+Polaridad: negativo
+
+Razonamiento: El mensaje contiene expresiones con carga emocional negativa como ""muy decepcionante"" y ""dejó de funcionar correctamente"", lo que indica una experiencia negativa. Además, hay una expresión con carga emocional positiva en ""el producto llegó antes de lo esperado y el embalaje estaba perfecto"", pero estas no compensan la decepción general. El tono general del mensaje es subjetivo debido a la expresión de sentimientos personales y la experiencia personal del cliente. La evaluación de sentimientos sugiere que el mensaje es predominantemente negativo, ya que el problema con el producto y la falta de respuesta del servicio son puntos críticos que afectan negativamente",2.97,108
+razonamiento,5,negativa," - Sentimiento: tristeza
+
+- Subjetividad: subjetivo
+
+- Polaridad: negativo
+
+- Razonamiento: El mensaje contiene palabras con carga emocional positiva como ""llegó antes de lo esperado"" y ""embalaje estaba perfecto"", pero la mayor parte del mensaje está dominada por palabras con carga emocional negativa como ""dejó de funcionar correctamente"", ""no respondió a mis mensajes"" y ""muy decepcionante"". El mensaje expresa opiniones personales sobre el producto y el servicio de atención al cliente, lo que indica subjetividad. El tono global del mensaje es negativo, ya que el problema principal del producto y la falta de respuesta del servicio son puntos críticos que generan insatisfacción.",2.97,102
