@@ -1,0 +1,71 @@
+﻿prompt,repeticion,temperature,top_p,respuesta,tiempo_s,etiqueta_predicha,etiqueta_correcta,formato_ok,apartados,longitud_chars,longitud_palabras
+1_base,1,0.7,0.9,"La reseña es negativa. El comentario sobre el producto llegando antes de lo esperado y el embalaje estando perfecto sugieren un buen comienzo, pero el problema del producto dejando de funcionar correctamente y el servicio de atención al cliente no respondiendo a los mensajes indican una experiencia negativa.",15.48,negativa,1,1,1.0,309,48
+1_base,2,0.7,0.9,"La reseña es negativa. El comentario sobre el envío y embalaje es positivo, pero luego se menciona que el producto dejó de funcionar correctamente y el servicio de atención al cliente no respondió, lo que indica una experiencia desfavorable.",13.19,negativa,1,1,1.0,241,39
+1_base,3,0.7,0.9,La reseña es negativa. El reseñador expresa su descontento con el producto ya que dejó de funcionar correctamente y no recibió respuesta del servicio de atención al cliente.,8.15,negativa,1,1,1.0,173,28
+1_base,4,0.7,0.9,"La reseña es negativa. El usuario expresa su decepcionamiento con el producto, que dejó de funcionar después de tres días y el servicio de atención al cliente no respondió a sus mensajes.",5.77,negativa,1,1,1.0,187,32
+1_base,5,0.7,0.9,"La reseña es negativa, ya que el usuario expresa que el producto no funciona correctamente y no recibió respuesta del servicio de atención al cliente.",4.04,negativa,1,1,1.0,150,25
+2_plantilla,1,0.7,0.9,"Clasificación: negativa
+Justificación: El reseñador expresa que el producto no funciona correctamente después de tres días de uso y no recibió respuesta del servicio al cliente.",6.08,negativa,1,1,1.0,177,26
+2_plantilla,2,0.7,0.9,"Clasificación: negativa
+Justificación: El cliente ha expresado que el producto no funciona correctamente y no recibió respuesta del servicio al cliente.",4.99,negativa,1,1,1.0,152,21
+2_plantilla,3,0.7,0.9,"Clasificación: negativa
+Justificación: El cliente expresó que el producto no funciona correctamente después de usarlo tres días y que el servicio de atención al cliente no responde a sus mensajes.",6.48,negativa,1,1,1.0,196,30
+2_plantilla,4,0.7,0.9,"Clasificación: Negativa
+Justificación: El texto expresa la desilusión del usuario debido a que el producto no funciona correctamente y el servicio de atención al cliente no ha respondido a sus mensajes.",6.26,negativa,1,1,1.0,202,31
+2_plantilla,5,0.7,0.9,"Clasificación: negativa
+Justificación: El producto falló en su funcionamiento y el servicio de atención al cliente no respondió a sus mensajes.",5.26,negativa,1,1,1.0,143,21
+3_razonamiento,1,0.7,0.9,"Aspectos positivos:
+1. El producto llegó antes de lo esperado.
+2. El embalaje estaba perfecto.
+
+Aspectos negativos:
+1. El producto dejó de funcionar correctamente después de tres días de uso.
+2. El servicio de atención al cliente no respondió a los mensajes.
+
+Análisis de alternativas:
+Positiva: El producto fue entregado antes de tiempo y su embalaje era perfecto, pero no se menciona ninguna característica positiva sobre la función del producto durante esos tres días. La falta de respuesta del servicio de atención al cliente también es una desventaja.
+Negativa: El producto no funciona correctamente y el servicio de atención al cliente no respondió a los mensajes.
+Neutra: No se menciona nada sobre la calidad del producto, el precio, el diseño o cualquier otra característica que pudiera influir en la clasificación.
+
+Conclusión y clasificación final:
+El peso de los argumentos es a favor de la clasificación negativa. El producto no funciona correctamente y el servicio de atención al cliente no respondió a los mensajes, lo que resulta en una experiencia decepcionante para el cliente.",28.42,positiva,0,1,1.0,1094,173
+3_razonamiento,2,0.7,0.9,"Aspectos positivos: El producto llegó antes de lo esperado y el embalaje estaba perfecto.
+
+Aspectos negativos: El producto dejó de funcionar correctamente después de tres días, y el servicio de atención al cliente no respondió a los mensajes.
+
+Análisis de alternativas: Aunque el producto llegó a tiempo y tenía un embalaje excelente, la falta de funcionalidad y la falta de respuesta del servicio de atención al cliente son aspectos negativos importantes. Por lo tanto, la reseña es negativa.
+
+Conclusión y clasificación final: La reseña es negativa, debido a la falta de funcionalidad del producto y la falta de respuesta del servicio de atención al cliente.",17.8,negativa,1,1,1.0,660,105
+3_razonamiento,3,0.7,0.9,"Aspectos positivos: El producto llegó antes de lo esperado y el embalaje estaba perfecto.
+
+Aspectos negativos: El producto dejó de funcionar correctamente después de tres días y el servicio de atención al cliente no respondió a los mensajes.
+
+Análisis de alternativas: La reseña presenta dos aspectos positivos, pero también dos aspectos negativos importantes. La falta de funcionamiento del producto y la falta de respuesta del servicio de atención al cliente son puntos negativos que superan los aspectos positivos.
+
+Conclusión y clasificación final: La reseña es negativa, ya que los aspectos negativos superan los positivos en peso.",22.97,negativa,1,1,1.0,636,96
+3_razonamiento,4,0.7,0.9,"Aspectos positivos:
+1. El producto llegó antes de lo esperado.
+2. El embalaje estaba perfecto.
+
+Aspectos negativos:
+1. El producto dejó de funcionar correctamente después de usarlo tres días.
+2. El servicio de atención al cliente no respondió a sus mensajes.
+
+Análisis de alternativas:
+La reseña muestra que el producto fue recibido en buen estado y se esperaba que funcionara, pero al contrario, se apagó después de tres días de uso. El servicio de atención al cliente no respondió a sus mensajes, lo que contribuye a la impresión de que no se ha atendido adecuadamente su problema. En comparación, los aspectos positivos son menos significativos y menos importantes que los aspectos negativos.
+
+Conclusión y clasificación final:
+La reseña se clasifica como negativa, ya que describe una experiencia desfavorable con el producto y el servicio de atención al cliente.",24.09,negativa,1,1,1.0,867,138
+3_razonamiento,5,0.7,0.9,"Aspectos positivos:
+1. El producto llegó antes de lo esperado.
+2. El embalaje estaba perfecto.
+
+Aspectos negativos:
+1. El producto dejó de funcionar correctamente después de usarlo tres días.
+2. El servicio de atención al cliente no respondió a los mensajes.
+
+Análisis de alternativas:
+La reseña muestra que el producto fue recibido en buen estado y al principio funcionó correctamente, pero luego se deterioró y el servicio de atención al cliente no fue eficaz. A pesar de que los aspectos positivos son importantes, son superados por los aspectos negativos, ya que el producto no funciona correctamente y el servicio de atención al cliente no responde a las comunicaciones.
+
+Conclusión y clasificación final:
+La reseña es negativa, ya que el producto no cumple con sus expectativas y el servicio de atención al cliente no ha podido resolver el problema.",23.92,negativa,1,1,1.0,855,138
