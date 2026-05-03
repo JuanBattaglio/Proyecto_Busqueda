@@ -1,0 +1,4 @@
+﻿prompt,n,acierto_etiqueta,formato_ok,apartados_medio,consistencia,etiqueta_moda,tiempo_medio_s,claridad,coherencia,utilidad,calidad_argumentativa
+1_base,5,1.0,1.0,1.0,1.0,negativa,12.06,3.4,3.6,1.8,2.2
+2_plantilla,5,1.0,1.0,1.0,1.0,negativa,18.66,3.8,4.2,3.8,4.0
+3_razonamiento,5,0.0,1.0,1.0,1.0,positiva,87.79,4.0,4.6,5.0,4.8

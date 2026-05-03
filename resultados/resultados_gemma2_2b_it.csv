@@ -1,0 +1,136 @@
+﻿prompt,repeticion,temperature,top_p,respuesta,tiempo_s,etiqueta_predicha,etiqueta_correcta,formato_ok,apartados,longitud_chars,longitud_palabras
+1_base,1,0.7,0.9,"La reseña es **negativa**. 
+
+Aunque menciona aspectos positivos como el envío y el embalaje, estos no compensan la experiencia negativa con el producto. La descripción del problema con el producto y la falta de respuesta del servicio de atención al cliente son puntos negativos que resaltan la decepción del usuario.",13.17,negativa,1,1,1.0,316,50
+1_base,2,0.7,0.9,"La reseña es **negativa**. 
+
+Aunque el producto llegó en buen estado y el embalaje fue perfecto, la reseña se enfoca en la falla del producto y la falta de respuesta del servicio al cliente, lo que indica una experiencia negativa.",11.02,negativa,1,1,1.0,230,40
+1_base,3,0.7,0.9,"La reseña es **negativa**. 
+
+A pesar de iniciar con aspectos positivos (llegada puntual y embalaje), la reseña termina con una crítica negativa: el producto dejó de funcionar correctamente y el servicio de atención al cliente no fue útil.",10.74,negativa,1,1,1.0,238,38
+1_base,4,0.7,0.9,"La reseña es **negativa**. 
+
+Aunque el producto llegó a tiempo y el embalaje fue bueno, la reseña se centra en el problema con el producto y la falta de respuesta del servicio al cliente.  La frase ""Muy decepcionante"" es un claro indicador de una opinión negativa.",12.41,negativa,1,1,1.0,264,46
+1_base,5,0.7,0.9,"Esta reseña es **negativa**. 
+
+Si bien el producto llegó a tiempo y con buen embalaje, la reseña se centra en un problema con la funcionalidad del producto y la falta de respuesta del servicio al cliente.  La frase ""Muy decepcionante"" es un indicio de un sentimiento negativo.",12.94,negativa,1,1,1.0,276,47
+2_plantilla,1,0.7,0.9,"Clasificación: Negativa
+Justificación: La reseña destaca aspectos positivos como la entrega y el embalaje, pero se centra en una experiencia negativa con el producto y el servicio al cliente.",18.33,negativa,1,1,1.0,191,29
+2_plantilla,2,0.7,0.9,"Clasificación: Negativa
+Justificación: La reseña destaca aspectos positivos como el envío y el embalaje, pero se centra en la falla del producto y la falta de respuesta del servicio al cliente, lo que indica una experiencia negativa.",20.11,negativa,1,1,1.0,233,37
+2_plantilla,3,0.7,0.9,"Clasificación: Negativa
+Justificación: La reseña destaca aspectos positivos como el envío y el embalaje, pero se enfoca en la mala experiencia con el producto y el servicio al cliente.",18.67,negativa,1,1,1.0,184,29
+2_plantilla,4,0.7,0.9,"Clasificación: Negativa
+Justificación: La reseña destaca aspectos positivos como el envío y el embalaje, pero se centra en la mala experiencia con el producto y el servicio al cliente.",18.42,negativa,1,1,1.0,184,29
+2_plantilla,5,0.7,0.9,"Clasificación: Negativa
+Justificación: La reseña destaca aspectos positivos como la entrega y el embalaje, pero se centra en la mala experiencia con el producto y el servicio al cliente.",17.78,negativa,1,1,1.0,186,29
+3_razonamiento,1,0.7,0.9,"## Análisis de la reseña de producto:
+
+**Aspectos positivos:**
+
+* **Entrega rápida:** ""El producto llegó antes de lo esperado y el embalaje estaba perfecto."" 
+
+**Aspectos negativos:**
+
+* **Mal funcionamiento del producto:** ""Después de usarlo tres días, dejó de funcionar correctamente.""
+* **Servicio de atención al cliente deficiente:** ""El servicio de atención al cliente no respondió a mis mensajes."" 
+
+
+**Análisis de alternativas:**
+
+* **Positiva:** La reseña destaca aspectos positivos como la entrega rápida y el embalaje, pero se ve superada por la negatividad del producto y el servicio al cliente. 
+* **Negativa:** La reseña presenta un problema significativo con el producto y la falta de respuesta del servicio al cliente, lo que sugiere una experiencia negativa.
+* **Neutra:** La reseña podría ser neutra si se centrara en el aspecto de la entrega y no mencionara el mal funcionamiento del producto. Sin embargo, la información sobre el servicio al cliente y el problema con el producto hacen que sea más probable una clasificación negativa.
+
+**Conclusión y clasificación final:**
+
+La reseña es **negativa**. Si bien la reseña inicia con aspectos positivos, la negatividad del producto y el servicio al cliente superan cualquier beneficio inicial. La falta de respuesta del servicio al cliente a la que se refiere la reseña, y el mal funcionamiento del producto, indican una experiencia negativa que no se puede ignorar.",62.42,positiva,0,1,1.0,1432,221
+3_razonamiento,2,0.7,0.9,"## Análisis de la Reseña de Producto:
+
+**Aspectos positivos:**
+
+* **Entrega rápida:** El producto llegó antes de lo esperado.
+* **Embalaje adecuado:** El embalaje estaba perfecto.
+
+**Aspectos negativos:**
+
+* **Mal funcionamiento del producto:** El producto dejó de funcionar correctamente después de tres días de uso.
+* **Atención al cliente deficiente:** El servicio de atención al cliente no respondió a los mensajes.
+
+
+**Análisis de alternativas:**
+
+* **Positiva:** Aunque la reseña menciona un mal funcionamiento del producto y un servicio de atención al cliente deficiente, la entrega rápida y el embalaje adecuado podrían ser considerados como aspectos positivos. Sin embargo, la gravedad del mal funcionamiento y la falta de respuesta del servicio al cliente hacen que esta opción sea débil.
+* **Negativa:** La reseña es claramente negativa, ya que se describe un producto defectuoso y una experiencia de atención al cliente insatisfactoria. La reseña destaca la mala experiencia del usuario y la falta de solución.
+* **Neutra:** No hay información suficiente para clasificar la reseña como neutra. 
+
+**Conclusión y clasificación final:**
+
+La reseña es **negativa**. Si bien el producto llegó antes de lo esperado y el embalaje era adecuado, la experiencia del usuario se ve afectada por el mal funcionamiento del producto y la falta de respuesta del servicio al cliente. La gravedad del problema y la insatisfacción del usuario superan los aspectos positivos.",71.97,positiva,0,1,1.0,1467,222
+3_razonamiento,3,0.7,0.9,"## Análisis de la reseña de producto:
+
+**Aspectos positivos:**
+
+* **Entrega puntual:** El producto llegó antes de lo esperado.
+* **Embalaje adecuado:** El embalaje estaba perfecto.
+
+**Aspectos negativos:**
+
+* **Mal funcionamiento:** Después de tres días de uso, el producto dejó de funcionar correctamente.
+* **Respuesta del servicio al cliente deficiente:** El servicio de atención al cliente no respondió a los mensajes.
+
+**Análisis de alternativas:**
+
+* **Positiva:**  El producto llegó a tiempo y con buen embalaje, lo que podría considerarse positivo.
+* **Negativa:**  El producto dejó de funcionar correctamente y el servicio al cliente no respondió a los mensajes, lo que representa una experiencia negativa.
+* **Neutra:**  La reseña no menciona ningún aspecto positivo o negativo, solo una experiencia general.
+
+**Conclusión y clasificación final:**
+
+En este caso, la reseña se inclina claramente hacia la **negativa**.  Si bien la entrega y el embalaje fueron positivos, la experiencia con el producto y el servicio al cliente es negativa.  La mala funcionalidad del producto y la falta de respuesta de la empresa generan una percepción de desilusión y desconfianza en la marca. 
+
+
+**Justificación:** La reseña destaca dos aspectos importantes: la funcionalidad del producto y el servicio al cliente.  La primera es crítica ya que el producto dejó de funcionar correctamente después de poco tiempo, lo que representa una falla en el producto. La segunda es negativa porque el usuario no recibió una respuesta de la empresa, lo que sugiere un mal servicio y una falta de compromiso con el cliente.",104.6,positiva,0,1,1.0,1605,246
+3_razonamiento,4,0.7,0.9,"## Análisis de la reseña de producto:
+
+**Aspectos positivos:**
+
+* **Entrega rápida:** ""El producto llegó antes de lo esperado y el embalaje estaba perfecto."" 
+* **Satisfacción inicial:** El cliente se muestra satisfecho con la entrega y el embalaje del producto.
+
+**Aspectos negativos:**
+
+* **Mal funcionamiento del producto:** ""Después de usarlo tres días, dejó de funcionar correctamente.""
+* **Respuesta deficiente del servicio al cliente:** ""El servicio de atención al cliente no respondió a mis mensajes.""
+* **Decepción general:**  ""Muy decepcionante""
+
+**Análisis de alternativas:**
+
+* **Positiva:**  La reseña destaca aspectos positivos como la entrega y el embalaje. Sin embargo, la mala experiencia con el producto y el servicio al cliente hacen que sea difícil clasificar la reseña como positiva.
+* **Negativa:**  La reseña presenta un problema con el producto y un servicio al cliente deficiente. Esto es suficiente para clasificar la reseña como negativa. 
+* **Neutra:**  La reseña no es completamente negativa ni positiva, pero no ofrece suficiente información para determinar una clasificación neutral.
+
+**Conclusión y clasificación final:**
+
+La reseña es **negativa**. Si bien el cliente inicialmente se mostró satisfecho con la entrega, la mala experiencia con el producto y el servicio al cliente hacen que la reseña sea negativa. La falta de respuesta del servicio al cliente también contribuye a la decepción del cliente.",90.12,positiva,0,1,1.0,1438,213
+3_razonamiento,5,0.7,0.9,"## Análisis de la reseña de producto:
+
+**Aspectos positivos:**
+
+* **Entrega rápida y embalaje perfecto:** El cliente menciona que el producto llegó antes de lo esperado y que el embalaje estaba en perfectas condiciones. Esto indica una buena experiencia en el proceso de compra y entrega.
+
+**Aspectos negativos:**
+
+* **Mal funcionamiento del producto:** El cliente relata que después de tres días de uso, el producto dejó de funcionar correctamente. Esto es un problema significativo para el usuario y puede afectar negativamente la experiencia del cliente.
+* **Respuesta deficiente del servicio al cliente:** El cliente menciona que el servicio de atención al cliente no respondió a sus mensajes. Esto genera una sensación de abandono y falta de atención, lo que puede ser un factor de desconfianza en la marca.
+
+**Análisis de alternativas:**
+
+* **Positiva:**  La reseña destaca aspectos positivos, como la entrega rápida y el embalaje perfecto. Sin embargo, el mal funcionamiento del producto y la falta de respuesta del servicio al cliente son puntos negativos que pesan más en la evaluación.
+* **Negativa:** El mal funcionamiento del producto y la falta de respuesta del servicio al cliente son elementos que evidencian una experiencia negativa. La reseña muestra claramente la decepción del cliente.
+* **Neutra:**  La reseña es neutral en cuanto a los aspectos positivos y negativos, pero la falta de respuesta del servicio al cliente y el mal funcionamiento del producto hacen que sea una reseña negativa.
+
+
+**Conclusión y clasificación final:**
+
+La reseña es **negativa**. Aunque el cliente menciona aspectos positivos como la entrega rápida y el embalaje, estos son superados por la experiencia negativa con el producto y el servicio al cliente. La falta de respuesta del servicio al cliente y el mal funcionamiento del producto son puntos que desestima la calidad del producto y la satisfacción del cliente.",109.84,positiva,0,1,1.0,1916,300
